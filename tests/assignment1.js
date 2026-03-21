@@ -1,0 +1,10 @@
+let userName="saranya";
+let org='Verizon';
+let contactNumber=9789090098;
+let knowsAutomation=true;
+let usesPlaywright;
+console.log(typeof(userName));
+console.log(typeof(org));
+console.log(typeof(contactNumber));
+console.log(typeof(knowsAutomation));
+console.log(typeof(usesPlaywright));
