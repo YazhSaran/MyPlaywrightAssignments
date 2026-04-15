@@ -15,7 +15,7 @@ test("Booking Dynamic ticket",async({page})=>
     //await page.getByRole('button',{name:'Select Movie'}).click();
     await page.locator("//li//span[text()='BIKER']").click();
     //await page.locator("//span[text()='Select Timing']").click();
-    await page.locator("//span[text()='02:40 PM']").click();
+    await page.locator("(//span[contains(text(),'PM')])[1]").click();
     await page.locator("//button[@type='submit']/span").click();
     await page.waitForLoadState('load');  
     await page.locator('.loading-spinner').waitFor({ state: 'hidden' });     
